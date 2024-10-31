@@ -38,8 +38,8 @@ class Table extends Component {
                                             <td className='px-4 py-2'>{coder.email}</td>
                                             <td className='px-4 py-2'>{coder.telephone}</td>
                                             <td className='px-4 py-2'>
-                                                <button onClick={()=>this.props.modifDonne(coder.index)}  className='text-blue-600 hover:underline'>Modifier</button>
-                                                <button onClick={() => this.props.supressionElement(index)} className='text-red-600 hover:underline ml-2'>Supprimer</button>
+                                                <button onClick={()=>this.props.modifDonne(coder.index)}  className='bg-yellow-500 rounded text-black p-2 '>Modifier</button>
+                                                <button onClick={() => this.props.supressionElement(index)} className='bg-red-600 text-white p-2 rounded ml-2'>Supprimer</button>
                                             </td>
                                         </tr>
                                     );
